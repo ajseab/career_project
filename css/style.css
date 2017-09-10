@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/header-photo-2.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+section {
+    padding: 105px 0px;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.clear {
+    clear: both;
+}
+
+
+/* HEADINGS */
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 250%;
+    font-weight: 100;
+    letter-spacing: 2px;
+    color: #fff;
+    top: 40%;
+    position: absolute;
+    left: 20%;
+    right: 20%;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    padding: 5px 0px;
+}
+
+h2 {
+    font-weight: 300;
+    margin-bottom: 15px;
+    margin-bottom: 15px;
+    border-left: 2px solid #8e44ad;
+    padding-left: 12px;
+}
+
+/* PARAGRAPHS */
+
+p {
+    line-height: 165%;
+    font-size: 16px;
+    color: #444;
+}
+
+/* NAVIGATION */
+nav ul {
+    list-style: none;
+    display: inline-block;
+    position: absolute;
+    left: 48%;
+    right: 45%;
+    bottom: 25%;;
+}
+
+nav ul li {
+    margin-bottom: 10px;
+}
+
+nav ul li a:link,
+nav ul li a:visited {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 85%;
+    color: #fff;
+    transition: opacity 0.4s;
+    letter-spacing: 2px;
+}
+
+nav ul li a:hover,
+nav ul li a:active {
+    opacity: 0.4;
+}
+
+/* SECTIONS */
+
+.section-info,
+.section-salary,
+.section-references {
+    background-color: #f4f4f4;
+}
+
+.section-info li {
+    font-size: 18px;
+    margin-bottom: 7px;
+}
+
+.task-list-container {
+    float: left;
+    margin-top: 30px;
+}
+
+.task-list-container ul {
+    list-style: none;
+}
+
+.pencil-img-container img {
+    width: 475px;
+    height: auto; 
+}
+
+.pencil-img-container {
+    float: right;
+}
+
+.planner-img-container img {
+    width: 475px;    
+    height: auto;
+}
+
+.planner-img-container {
+    float: right;
+}
+
+.schedule-paragraph-container,
+.info-paragraph-container {
+    float: left;
+    width: 45%;
+}
+
+.schedule-paragraph-container {
+    margin-top: 80px;
+}
+
+.info-paragraph-container {
+    margin-top: 18px;
+}
+
+
+
+
+
+
+
+
+
+.reference-list-container ul {
+    list-style: none;
+}
+
+.reference-list-container ul li {
+    margin-bottom: 8px;
+}
+
+.reference-list-container ul li a {
+    text-decoration: none;
+    color: #2980b9;
+    transition: color 0.3s;
+}
+
+.reference-list-container ul li a:hover,
+.reference-list-container ul li a:active {
+    color : #333;
+}
+
+footer {
+    background-color: #555;
+    color: #bbb;
+    text-align: center;
+    padding: 40px 0px;
+    font-size: 14px;
+}
