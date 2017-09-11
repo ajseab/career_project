@@ -121,26 +121,25 @@ nav ul li a:active {
     list-style: none;
 }
 
-.pencil-img-container img {
+.pencil-img-container img,
+.planner-img-container img,
+.study-img-container img,
+.money-img-container img {
     width: 475px;
     height: auto; 
 }
 
-.pencil-img-container {
-    float: right;
-}
-
-.planner-img-container img {
-    width: 475px;    
-    height: auto;
-}
-
-.planner-img-container {
+.pencil-img-container,
+.planner-img-container,
+.study-img-container,
+.money-img-container {
     float: right;
 }
 
 .schedule-paragraph-container,
-.info-paragraph-container {
+.info-paragraph-container,
+.how-to-container,
+.salary-container {
     float: left;
     width: 45%;
 }
