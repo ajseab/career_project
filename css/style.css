@@ -62,6 +62,12 @@ h2 {
     padding-left: 12px;
 }
 
+h3 {
+    font-weight: 400;
+    margin-bottom: 7px;
+    color: #8e44ad;
+}
+
 /* PARAGRAPHS */
 
 p {
@@ -152,14 +158,6 @@ nav ul li a:active {
     margin-top: 18px;
 }
 
-
-
-
-
-
-
-
-
 .reference-list-container ul {
     list-style: none;
 }
@@ -177,6 +175,31 @@ nav ul li a:active {
 .reference-list-container ul li a:hover,
 .reference-list-container ul li a:active {
     color : #333;
+}
+
+.page-2-section-format div {
+    margin-bottom: 17px;
+}
+
+.page-2-section-format h2 {
+    margin-bottom: 20px;
+}
+
+.page-2-section-format ul {
+    list-style: none;
+}
+
+.study-img-container {
+    margin-top: 47px;
+}
+
+.money-img-container {
+    margin-top: 77px;
+}
+
+.section-plan ol {
+    line-height: 150%;
+    margin-left: 15px;    
 }
 
 footer {
